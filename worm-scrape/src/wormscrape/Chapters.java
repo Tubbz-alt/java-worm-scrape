@@ -10,7 +10,7 @@ import org.jsoup.select.Elements;
 /**
  * This class gets all of the chapter links from the site: "https://parahumans.wordpress.com/table-of-contents/"
  */
-public class chapters {
+public class Chapters {
     //Exceptions: Epilogue E.2's link is out of order and E.X's link do not have "https://"
 
     /**
