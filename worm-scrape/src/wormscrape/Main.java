@@ -20,6 +20,13 @@ public class Main {
         System.setOut(out);
         ArrayList<String> chaptersList = Chapters.getChapters();
 
+        int j = 0;
+        for (String chapter : chaptersList) {
+            System.out.println(chapter);
+            j++;
+        }
+        System.out.println(j + " chapters printed, should be: 305 chaptes in total excluding FAQ");
+
         //Get the chapters and their contents and print it out.
         for (String chapter : chaptersList){
             ArrayList<String> content = Story.getStory(chapter);
