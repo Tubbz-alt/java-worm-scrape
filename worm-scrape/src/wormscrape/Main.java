@@ -25,7 +25,7 @@ public class Main {
             System.out.println(chapter);
             j++;
         }
-        System.out.println(j + " chapters printed, should be: 305 chaptes in total excluding FAQ");
+        System.out.println(j + " chapters printed, should be: 305 chapters in total excluding FAQ");
 
         //Get the chapters and their contents and print it out.
         for (String chapter : chaptersList){

@@ -23,8 +23,13 @@ public class Story {
         if (title.toString() == "Gestation 1.1") {
             Elements story = document.select("div.entry-content").select("p[dir]");
             for (Element e : story) {
-                if (!e.text().matches("(.*)Last Chapter(.*)") || !e.text().matches("(.*)Next Chapter(.*)"))
-                content.add(e.text());
+                if (e.text().matches("(.*)Last Chapter(.*)") || e.text().matches("(.*)Next Chapter(.*)")){
+
+                }
+                else{
+                    content.add(e.text());
+                }
+
             }
         }
         else {

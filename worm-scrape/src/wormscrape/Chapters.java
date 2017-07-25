@@ -54,7 +54,11 @@ public class Chapters {
                 //Add E.X's proper link in.
                 if (link.startsWith("parahumans")) {
                     chapters.add("https://parahumans.wordpress.com/2013/11/19/interlude-end/");
-                } else {
+                }
+                else if (chapters.contains(link)){
+
+                }
+                else {
                     chapters.add(link);
                     //Add E.2's proper link in at its proper position.
                     if (link.endsWith("teneral-e-1/")) {
