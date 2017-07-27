@@ -1,3 +1,7 @@
+/***
+ * Created by Chirstopher Dani
+ */
+
 package wormscrape;
 
 import org.jsoup.Jsoup;
@@ -20,24 +24,17 @@ public class Story {
         content.add(title.toString());
         content.add("");
 
-        if (title.toString() == "Gestation 1.1") {
-            Elements story = document.select("div.entry-content").select("p[dir]");
-            for (Element e : story) {
-                if (e.text().matches("(.*)Last Chapter(.*)") || e.text().matches("(.*)Next Chapter(.*)")){
+        Elements story = document.select("div.entry-content").select("p");
+        for (Element e : story) {
+            if (e.text().startsWith(("Last Chapter")) || e.text().startsWith(("Next Chapter")) || e.text().startsWith(("Brief note from the author"))){
 
-                }
-                else{
-                    content.add(e.text());
-                }
 
             }
-        }
-        else {
-            Elements story = document.select("div.entry-content").select("p");
-            for (Element e : story) {
+            else{
                 content.add(e.text());
             }
         }
+
         content.add("");
         content.add("");
         content.add("");

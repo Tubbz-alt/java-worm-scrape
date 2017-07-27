@@ -1,3 +1,7 @@
+/***
+ * Created by Chirstopher Dani
+ */
+
 package wormscrape;
 
 import java.io.FileOutputStream;
@@ -19,13 +23,14 @@ public class Main {
         PrintStream out = new PrintStream(new FileOutputStream("output.txt"));
         System.setOut(out);
         ArrayList<String> chaptersList = Chapters.getChapters();
+        //There should be 304 chapters in total.
 
-        int j = 0;
-        for (String chapter : chaptersList) {
-            System.out.println(chapter);
-            j++;
-        }
-        System.out.println(j + " chapters printed, should be: 305 chapters in total excluding FAQ");
+        System.out.println("Worm by Wildbow");
+        System.out.println("Brief note from the author: This story isn’t intended for young or sensitive readers. Readers who are on the lookout for trigger warnings are advised to give Worm a pass");
+        System.out.println();
+        System.out.println();
+        System.out.println();
+        System.out.println();
 
         //Get the chapters and their contents and print it out.
         for (String chapter : chaptersList){

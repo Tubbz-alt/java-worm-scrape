@@ -1,3 +1,7 @@
+/***
+ * Created by Chirstopher Dani
+ */
+
 package wormscrape;
 
 import java.net.URLEncoder;
