@@ -2,7 +2,7 @@
 This program scrapes the story [Worm](https://parahumans.wordpress.com/) written by WildBow.
 
 ## Running the program
-Simply download this [jar](java-worm-scrape.jar) file. This program will do all the work.
+Simply download this [jar](worm-scrape/java-worm-scrape.jar) file. This program will do all the work.
 The result is an output.txt file that is in the same directory as the .jar file when it is run.
 
 ## Possible problems
