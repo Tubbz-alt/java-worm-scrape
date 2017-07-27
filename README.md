@@ -8,6 +8,7 @@ The result is an output.txt file that is in the same directory as the .jar file 
 ## Possible problems
 1) No checking is performed in this program, it assumes that you have an internet connection and can connect to the website.
 2) Run time depends on your internet connection and computer. It runs at an average of 3 minutes and 30 seconds in my computer and connection.
+3) You have Java 8 installed and can run this jar.
 
 ## To do:
 - [ ] Do proper exception and checking.
