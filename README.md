@@ -2,7 +2,7 @@
 This program scrapes the story [Worm](https://parahumans.wordpress.com/) written by WildBow.
 
 ## Running the program
-Simply download this [jar](worm-scrape/java-worm-scrape.jar) file (compiled for windows). This program will do all the work.
+Simply download this [jar](worm-scrape/java-worm-scrape.jar) file. This program will do all the work.
 The result is an output.txt file that is in the same directory as the .jar file when it is run. After the program is done running, the ouput.txt file will contain a line at the very bottom that says "The program ran for # minutes and # seconds."
 
 If you are running Linux or Mac, you need to have Java installed to compile and build the jar file to run the code.
